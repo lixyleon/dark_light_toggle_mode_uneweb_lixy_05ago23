@@ -6,10 +6,12 @@ $(document).ready(function(){
 
         //toggle button
         $("span").text(
-            $("span").text()=="ligth Mode"? "Dark Mode" : "LightMode"
+            $("span").text()=="light Mode"? "Dark Mode" : "LightMode"
         )
     })
     $("#toggle-btn").click(function(){
-        $(this).find(i).toggleClass("fa-moon");
+        let icon = $(this).find("ion-icon")
+        icon.attr("name") === "moon"? icon.attr("name","sunny") : icon.attr("name","moon")
+        $("body").toggleClass(change-background);
     })
 })

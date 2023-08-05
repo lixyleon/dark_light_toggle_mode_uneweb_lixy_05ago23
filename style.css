@@ -42,11 +42,12 @@ h1{
     cursor: pointer;
 }
 
-.toggle-bt ion-icon { /* corregir el icono*/
+.toggle-bt ion-icon {
     padding-left: 10px;
 }
 
-body .change-back{
-    color:#f5f5f5;
+.change-background{
+    color:#fff;
+    background-color: #000;
 }
 
